@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Index.aspx" title=""  description="">
+    <siteMapNode url="Index.aspx#home"  title="HOME"  description="" />
+    <siteMapNode url="Index.aspx#gallery" title="FOOD GALLERY"  description="" />
+    <siteMapNode url="Index.aspx#menu" title="SPECIAL MENU"  description="" />
+    <siteMapNode url="Index.aspx#team" title="CHEFS"  description=""/>
+    <siteMapNode url="Index.aspx#contact" title="RESERVATION"  description=""/>
+    <siteMapNode url="~/Administrator/Admin.aspx" title="ADMINISTRATOR" roles="Administrator"/>
+    <siteMapNode url="~/Cook/Cook.aspx" title="COOK" roles="Cook"/>
+    <siteMapNode url="~/Menager/Menager.aspx" title="MENAGER" roles="Menager"/>
+    <siteMapNode url="~/Autor/Autor.aspx" title="AUTOR"  description=""  />
+    <siteMapNode url="Index.aspx#copyright" title="LOG IN/LOG OUT"  description=""/>
+    
+  </siteMapNode>
+</siteMap>

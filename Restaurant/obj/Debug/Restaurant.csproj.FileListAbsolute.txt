@@ -1,0 +1,24 @@
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\bin\Restaurant.dll.config
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\bin\Restaurant.dll
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\bin\Restaurant.pdb
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\bin\EntityFramework.dll
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\bin\EntityFramework.xml
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+C:\Users\Velja\Documents\Visual Studio 2013\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Velja\documents\visual studio 2013\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\bin\Restaurant.dll.config
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\bin\Restaurant.dll
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\bin\Restaurant.pdb
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\bin\EntityFramework.dll
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\bin\EntityFramework.xml
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Velja\Desktop\faks\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+C:\Users\velja\Desktop\Restaurant\Restaurant\bin\Restaurant.dll.config
+C:\Users\velja\Desktop\Restaurant\Restaurant\bin\Restaurant.dll
+C:\Users\velja\Desktop\Restaurant\Restaurant\bin\Restaurant.pdb
+C:\Users\velja\Desktop\Restaurant\Restaurant\bin\EntityFramework.dll
+C:\Users\velja\Desktop\Restaurant\Restaurant\bin\EntityFramework.xml
+C:\Users\velja\Desktop\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+C:\Users\velja\Desktop\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\velja\Desktop\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache

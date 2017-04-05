@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5d5010f8c4a2472681c9d48115feb231" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Membership" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Paths" Width="1.5" PointX="4" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="10.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Profile" Width="1.5" PointX="10.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Roles" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_SchemaVersions" Width="1.5" PointX="11.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_Users" Width="1.5" PointX="8.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.aspnet_WebEvent_Events" Width="1.5" PointX="9.625" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.brojLjudi" Width="1.5" PointX="2.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Jela" Width="1.5" PointX="6.125" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Kuvari" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Menadzeri" Width="1.5" PointX="6.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Poll" Width="1.5" PointX="11.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.poll_answer" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Pozicije" Width="1.5" PointX="4.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Rezervacije" Width="1.5" PointX="4.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Sastojci" Width="1.5" PointX="2.625" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Termini" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Jela_Sastojci" Width="1.5" PointX="2.625" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_Applications" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_Profiles" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_Roles" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_Users" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_WebPartState_Paths" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_WebPartState_Shared" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.vw_aspnet_WebPartState_User" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Me__Appli__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Pa__Appli__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Ro__Appli__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Us__Appli__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Me__UserI__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Pe__PathI__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Pe__PathI__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Pe__UserI__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__aspnet_Pr__UserI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.ID_poll" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_Rezervacije_ToTable" />
+        <AssociationConnector Association="RestaurantModel.FK_Rezervacije_ToTermin" />
+        <AssociationConnector Association="RestaurantModel.FK_Kuvari_ToPozicija" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Restaurant.master.cs" Inherits="Restaurant.Restaurant" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8"/>
+	<title>Zentro</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+<!--
+
+Template 2076 Zentro
+
+http://www.tooplate.com/view/2076-zentro
+
+-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/animate.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/nivo-lightbox.css"/>
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'/>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <!-- preloader section -->
+        <section class="preloader">
+	        <div class="sk-spinner sk-spinner-pulse"></div>
+        </section>
+
+        <!-- navigation section -->
+        <section class="navbar navbar-default navbar-fixed-top" role="navigation">
+	        <div class="container">
+		        <div class="navbar-header">
+			        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				        <span class="icon icon-bar"></span>
+				        <span class="icon icon-bar"></span>
+				        <span class="icon icon-bar"></span>
+			        </button>
+			        <a href="#" class="navbar-brand">ZENTRO</a>
+		        </div>
+		        <div class="collapse navbar-collapse" id="proba">
+			        <%--<ul class="nav navbar-nav navbar-right">
+				        <li><a href="#home" class="smoothScroll">HOME</a></li>
+				        <li><a href="#gallery" class="smoothScroll">FOOD GALLERY</a></li>
+				        <li><a href="#menu" class="smoothScroll">SPECIAL MENU</a></li>
+				        <li><a href="#team" class="smoothScroll">CHEFS</a></li>
+				        <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+			        </ul>--%>
+                   <%-- <asp:Menu ID="MainMenu" runat="server" DataSourceID="SiteMapDataSource1" 
+                       Orientation="Horizontal"
+                        RenderingMode="List" 
+                       StaticDisplayLevels="2"
+                        CssClass="collapse navbar-collapse"
+                        StaticMenuStyle-CssClass="nav navbar-nav" 
+                       StaticSelectedStyle-CssClass="active"
+                        DynamicMenuStyle-CssClass="dropdown-menu"
+                   IncludeStyleBlock="false"></asp:Menu>--%>
+
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2" 
+                        CssClass="nav navbar-nav navbar-right " StaticMenuStyle-CssClass="nav navbar-nav navbar-right "
+                        StaticSelectedStyle-CssClass="smoothScroll"  DynamicMenuStyle-CssClass="smoothScroll" IncludeStyleBlock="false" StaticMenuItemStyle-CssClass="smoothScroll"
+                        ></asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+		        </div>
+	        </div>
+        </section>
+        
+        <!-- home section -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        <section id="copyright">
+	        <div class="container">
+		        <div class="row">
+                    
+                    <div class="col-md-6 col-lg-6">
+                    
+                    <asp:Login   TitleTextStyle-ForeColor="#808080" TitleTextStyle-Font-Italic="true" LabelStyle-Font-Italic="true" CheckBoxStyle-ForeColor="#808080" LoginButtonStyle-BackColor="#808080" LoginButtonStyle-BorderStyle="None" LoginButtonStyle-ForeColor="white" TextBoxStyle-BackColor="#cccccc" ForeColor="#808080" LabelStyle-ForeColor="#808080" BackColor="#333333" ID="Login1" runat="server" VisibleWhenLoggedIn="false" MembershipProvider="MojProvajder" LoginButtonText="Log in" TitleText="Menager/Cook/Admin Log in" ValidatorTextStyle-ForeColor="Purple" TextLayout="TextOnLeft"></asp:Login>
+			      <asp:Label runat="server" ID="labelLogutText" Visible="false">Already leaving? <br/>
+                    Okay,we hope to see you soon.
+                        Click ->
+                      </asp:Label> 
+                        <asp:LoginStatus CssClass="Logout" LogoutText="LOGOUT" ID="LoginStatus1" runat="server"  Visible="false"/>
+                         </div>
+                     
+                    <div class="col-md-6 col-sm-6 ">
+				    <h3>ZENTRO</h3>
+				    <p>Copyright © Zentro Restaurant and Cafe 
+                    
+                    | Design: <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+                        <div id="radio-clear">
+                        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                        </asp:RadioButtonList>
+                    </div>
+			        </div>
+		        </div>
+	        </div>
+        </section>
+         <%--<script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.parallax.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/nivo-lightbox.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/custom.js"></script>--%>
+    </form>
+</body>
+</html>
